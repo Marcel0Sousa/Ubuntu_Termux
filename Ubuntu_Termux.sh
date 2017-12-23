@@ -4,7 +4,7 @@ DIRECTORY="/data/data/com.termux/files/usr/share/figlet"
 if [ ! -d "$DIRECTORY" ]; then
 apt update && apt install figlet
 fi
-figlet -f mini    		.....UBUNTU XENIAL.....
+figlet -f mini    .....UBUNTU XENIAL.....
 echo
 figlet INSCREVA-SE
 figlet Android Noobs

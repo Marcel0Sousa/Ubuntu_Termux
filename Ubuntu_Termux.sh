@@ -110,7 +110,7 @@ echo " PARA INICIAR O UBUNTU (XENIAL) DIGITE O COMANDO: ./ubuntu.sh 	"
 ;;
 4)
 echo
-echo ".........A ARQUITETURA DO SEU DISPOSITIVO É:________________"
+echo ".........A ARQUITETURA DO SEU DISPOSITIVO É:................."
 aarch=`dpkg --print-architecture`
 if [ $aarch = "aarch64" ] ; then
 echo
